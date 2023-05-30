@@ -28,13 +28,13 @@ public class Programa {
       if (idade <= 18) {
         mensalidade = 60.0;
       } else if (idade <= 25) {
-        mensalidade = 60.0;
-      } else if (idade <= 40) {
         mensalidade = 90.0;
+      } else if (idade <= 40) {
+        mensalidade = 58.0;
       } else if (idade <= 50) {
-        mensalidade = 85.0;
+        mensalidade = 65.0;
       } else {
-        mensalidade = 80.0;
+        mensalidade = 50.0;
       }
     } else {
       System.out.println("Sexo inválido.");
