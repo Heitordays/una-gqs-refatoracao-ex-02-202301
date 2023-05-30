@@ -27,11 +27,11 @@ public class Programa {
     } else if (sexo.equalsIgnoreCase("F")) {
       if (idade <= 18) {
         mensalidade = 60.0;
-      } else if (idade <= 18) {
+      } else if (idade <= 25) {
         mensalidade = 60.0;
-      } else if (idade <= 30) {
-        mensalidade = 90.0;
       } else if (idade <= 40) {
+        mensalidade = 90.0;
+      } else if (idade <= 50) {
         mensalidade = 85.0;
       } else {
         mensalidade = 80.0;
