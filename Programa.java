@@ -22,9 +22,9 @@ public class Programa {
       } else if (idade <= 40) {
         mensalidade = 85.0;
       } else if (idade <= 50) {
-        mensalidade = 85.0;  
+        mensalidade = 80.0;  
       } else {
-        mensalidade = 800.0;
+        mensalidade = 60.0;
       }
     } else if (sexo.equalsIgnoreCase("F")) {
       if (idade <= 18) {
